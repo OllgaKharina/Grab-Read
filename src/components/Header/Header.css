@@ -1,0 +1,33 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 24px;
+  }
+  
+  .header-box {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .header-logo img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .header-logo span {
+    margin-left: 6px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(16 58 126);   
+  }
+
+  .header-controls {
+    gap: 10px;
+  }
+  
+  
