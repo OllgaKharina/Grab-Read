@@ -11,7 +11,7 @@ import ProductPage from "./pages/ProductPage";
 import AboutMe from "./pages/AboutMe";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Grab-Read/">
     <StrictMode>
       <Routes>
         <Route path="/" element={<Layout />}>
