@@ -12,7 +12,7 @@ const Header = ({ onLogoClick }) => {
           </Link>
           <div className="header-controls flex">
             <Link to={"aboutme"}>
-              <button className="btn btn-secondary">Обо мне</button>
+              <button className="btn btn-secondary">О проекте</button>
             </Link>
             <a href="mailto:example@email.com" className="btn btn-primary">
               Оставить заявку на книгу

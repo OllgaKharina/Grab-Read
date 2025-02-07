@@ -1,6 +1,5 @@
 import Footer from "../Footer/Footer";
 import "./ContentSideBar.css";
-import "../../styles/media.css";
 
 const ContentSideBar = () => {
   return (

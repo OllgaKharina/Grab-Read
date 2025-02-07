@@ -7,7 +7,7 @@ const AboutMe = () => {
 
   return (
     <>
-      <h2 className="content__main-title">Об авторе проекта</h2>
+      <h2 className="content__main-title">О проекте</h2>
       <div className="about-container flex">
         <img
           className="about-img"
