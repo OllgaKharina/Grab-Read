@@ -6,6 +6,7 @@ export default defineConfig({
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
+  base: "/Grab-Read/", // название  репозитория
   build: {
     minify: "esbuild",
     sourcemap: false,
