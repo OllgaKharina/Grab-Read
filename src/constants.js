@@ -1,7 +1,7 @@
 export const cardsArray = [
   {
     id: 0,
-    img: "/img/card1.png",
+    img: `${import.meta.env.BASE_URL}img/card1.png`,
     title: "Botanical painting",
     author: "Хариет де Винтон",
     price: "500 ₽",
@@ -10,7 +10,7 @@ export const cardsArray = [
   },
   {
     id: 1,
-    img: "/img/card2.png",
+    img: `${import.meta.env.BASE_URL}img/card2.png`,
     title: "Бери и рисуй!",
     author: "Любимова А.Н.",
     price: "500 ₽",
@@ -19,7 +19,7 @@ export const cardsArray = [
   },
   {
     id: 2,
-    img: "/img/card3.png",
+    img: `${import.meta.env.BASE_URL}img/card3.png`,
     title: "Поселок",
     author: "Булычев Кир",
     price: "600 ₽",
@@ -28,17 +28,16 @@ export const cardsArray = [
   },
   {
     id: 3,
-    img: "/img/card4.png",
+    img: `${import.meta.env.BASE_URL}img/card4.png`,
     title: "Птичий город за облаками",
     author: "Дорр Энтони",
     price: "400 ₽",
-    date: "11 сентября 10:00",
     descr:
       "Новейший роман Энтони Дорра, автора книги «Весь невидимый нам свет», удостоенной Пулицеровской премии; как и этот международный бестселлер, «Птичий город за облаками» был включен в шорт-лист Национальной книжной премии США. Роман выстроен подобно матрешке (или «Облачному атласу» Дэвида Митчелла): здесь хитроумно перекрещиваются жизни и судьбы Анны и Омира, пребывающих по разные стороны стены в осажденном турками Константинополе 1453 года, а также пожилого энтузиаста древнегреческой литературы Зено и юного экотеррориста Сеймура в современном Айдахо, а также Констанции, которая летит к далекой экзопланете на корабле «Арго» под управлением всезнающей Сивиллы. ",
   },
   {
     id: 4,
-    img: "/img/card5.png",
+    img: `${import.meta.env.BASE_URL}img/card5.png`,
     title: "Мифы Древней Греции",
     author: "Кун Николай Альбертович",
     price: "500 ₽",
@@ -47,7 +46,7 @@ export const cardsArray = [
   },
   {
     id: 5,
-    img: "/img/card6.png",
+    img: `${import.meta.env.BASE_URL}img/card6.png`,
     title: "Весь невидимый нам свет",
     author: "Дорр Энтони",
     price: "400 ₽",
