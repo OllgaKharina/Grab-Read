@@ -7,7 +7,10 @@ const Header = ({ onLogoClick }) => {
       <div className="container">
         <div className="header-box flex">
           <Link to={"/"} className="header-logo flex" onClick={onLogoClick}>
-            <img src="/img/books-logo.svg" alt="logo" />
+            <img
+              src={`${import.meta.env.BASE_URL}img/books-logo.svg`}
+              alt="logo"
+            />
             <span>Grab&Read</span>
           </Link>
           <div className="header-controls flex">

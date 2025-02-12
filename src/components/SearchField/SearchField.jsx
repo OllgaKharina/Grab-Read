@@ -20,7 +20,7 @@ const SearchField = ({ searchText, onSearchChange, onSearchSubmit }) => {
           <button className="search-btn flex" type="submit">
             <img
               className="search-btn__icon"
-              src="/img/search.svg"
+              src={`${import.meta.env.BASE_URL}img/search.svg`}
               alt="search"
             />
             <span className="search-btn-text">Найти</span>
